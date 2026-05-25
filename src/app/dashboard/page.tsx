@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { getTodaySessions, getExams, getSubjects } from '@/lib/db'
-import { getAIRecommendations, parseAIJson } from '@/lib/ai'
+import { getAIRecommendations } from '@/lib/ai'
 import { parseAIJson as parseJson } from '@/lib/utils'
 import { daysUntil, formatDate } from '@/lib/utils'
 import type { StudySession, Exam, Subject, AIRecommendation } from '@/types'
